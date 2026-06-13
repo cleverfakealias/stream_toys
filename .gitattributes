@@ -1,0 +1,25 @@
+
+# managed line-ending normalization (2026-06-12)
+* text=auto eol=lf
+
+# Windows-only scripts that must stay CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# Binary — never normalize
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.mp4 binary
+*.mov binary
+*.wasm binary

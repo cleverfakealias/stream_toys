@@ -1,0 +1,19 @@
+{
+  "$schema": "https://code.claude.com/schemas/settings.json",
+  "//": "Copy to .claude/settings.local.json (gitignored, per-machine). The OS sandbox is the real security boundary — deny rules and hooks are advisory layers above it.",
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "network": {
+      "allowedDomains": [
+        "api.anthropic.com",
+        "registry.npmjs.org",
+        "pypi.org",
+        "files.pythonhosted.org",
+        "github.com",
+        "objects.githubusercontent.com",
+        "luarocks.org"
+      ]
+    }
+  }
+}

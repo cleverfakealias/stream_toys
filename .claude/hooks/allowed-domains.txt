@@ -1,0 +1,19 @@
+# Domains Claude may WebFetch (subdomains included). Keep short and boring.
+# Edited by humans only — the agent is blocked from changing files in .claude/hooks/.
+docs.claude.com
+code.claude.com
+docs.python.org
+docs.astral.sh
+peps.python.org
+pypi.org
+docs.pytest.org
+www.typescriptlang.org
+biomejs.dev
+vitest.dev
+nodejs.org
+pnpm.io
+developer.mozilla.org
+github.com
+raw.githubusercontent.com
+agents.md
+luals.github.io

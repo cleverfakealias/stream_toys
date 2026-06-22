@@ -1,0 +1,8 @@
+# Packages allowed for one-off remote execution (npx/uvx/pnpm dlx/bunx).
+# Format: bare package name, @scope/name allowed, no versions. # comments.
+# Edited by humans only — the agent is blocked from changing files in .claude/hooks/.
+@biomejs/biome
+typescript
+vitest
+eslint
+prettier
